@@ -1,0 +1,37 @@
+body{
+    background-image: url("web-design-2906159_1920.jpg");
+    color: white;
+    border: 3px solid antiquewhite;
+}
+
+
+table{
+    margin: 8% 10%;
+}
+
+.whoAm{
+    border-bottom: 2px solid grey;
+
+}
+
+img{
+    border: none;
+    border-radius: 50px;
+    opacity: 0.6;
+}
+
+.aboutMe{
+    font-family: Courier, Monaco, monospace;
+    font-size: large;
+    border-left: 2px solid grey;
+}
+
+a{
+    background-color: red;
+    color: white;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 1px;
+}
