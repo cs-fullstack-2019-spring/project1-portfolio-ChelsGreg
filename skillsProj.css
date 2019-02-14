@@ -47,39 +47,61 @@ body{
 
 .container{
     display: grid;
-    grid-template-columns:repeat (4, 1fr);
+    grid-template-columns:2fr;
+    grid-template-rows: 1fr 3fr 1fr ;
 }
 
-.container > div{
-    background: #cde2d5;
-    opacity: 0.7;
+.topLinks{
     align-content: center;
-}
-
-.container > div:nth-child(odd){
-    background: #458d99;
-    opacity: 0.7;
-    align-content: center;
-
+    grid-column:1;
+    grid-row:1;
+    border-radius: 80px;
+    border: 10px solid black;
 
 }
 
-/*.videoFrame{*/
-    /*border: 21px solid black;*/
-    /*border-radius: 60px;*/
+.reportCard{
+    grid-column:1;
+    grid-row:2;
+    border: 20px solid black;
+    border-radius: 70px;
+    background: #d2d2d2;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
 
-/*}*/
+
+}
+
+.creations{
+    grid-column:1;
+    grid-row:3;
+    border: 20px solid black;
+    padding: 20px 20px;
+    border-radius: 80px;
+    background: #d2d2d2;
 
 
+}
 
+p > a:link {
+    text-align: center;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 10px 10px;
+    background: #d2d2d2;
+    border-top: 1px solid white;
+}
 
 a:link{
     background-color: darkslategrey;
     color: white;
-    padding: 15px 25px;
     text-align: center;
     text-decoration: none;
-    border-radius: 2px;
+    border-radius: 6px;
+    padding: 10px 10px;
+    border-top: 2px solid black;
+
+
 }
 
 

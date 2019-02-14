@@ -1,31 +1,34 @@
+Afternoon-update:
+-rearranged education/resume page
+-added contact page with google form
+-added vlog/weekly reflections page
+-added own border creations to educ/resume page
+
+
 HOME PAGE:
 I am planning to create a Home Page, with simply my name in the middle.
 Possibly a video background, or a picture.
 In the  transparent header I will put links to the various pages.
 In the footer of the page  I will put my contact details.
 
-ADDED: new overlay/text/layout
 
 ABOUT ME:
 This page will have a picture of me on the left.
 In the right section of the page, there will be personal details such as my hometown, interests outside of coding that relate to it,
 such as art/photography/writing. Also why the reason why I want to code/develop, and what makes me a good prospect for it.
 
-ADDED: new overlay/text/layout
-
 
 
 SKILLS/PROJECTS/WEEKLY REFLECTIONS:
 This page will include links to classroom assignments, and possibly my wordpress site.
 
-ADDED: new overlay/text/layout
 
 EDUCATION/RESUME:
 This page will include my resume written out, as well as a link to download/ with education info.
 
-ADDED: new overlay/text/layout
 
-weeky reflextions
-possible page with personal video background/ and info on how i want to use coding/web development to help the memphis community at large
+WEEKLY REFLECTIONS:
+vlogs from youtube
 
-new weekly reflections page
+CONTACT PAFE:
+GOOGLE EMAIL FORM
