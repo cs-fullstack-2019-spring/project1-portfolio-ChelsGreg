@@ -1,3 +1,10 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+
 .section{
     position: relative;
     width: 100%;
@@ -20,7 +27,7 @@
     position:absolute;
     top: 0;
     left: 0;
-    background-color: lightblue;
+    background-color: #46484a;
     width: 100%;
     height: 100vh;
     opacity: 0.5;
@@ -44,7 +51,7 @@
     grid-template-columns:1fr 1fr;
     margin: 80% 10%;
     opacity: 0.6;
-   background: #cde2d5;
+   background: #d2d2d2;
     border-radius: 2px;
 
 }
@@ -78,3 +85,23 @@ p{
 }
 
 
+a:link{
+    background-color: darkslategrey;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+a:visited{
+    background-color: #878c99;
+    color: white;
+    text-align:center;
+    padding: 14px 25px;
+    text-decoration: underline;
+}
+
+a:hover{
+    background-color: antiquewhite;
+}
