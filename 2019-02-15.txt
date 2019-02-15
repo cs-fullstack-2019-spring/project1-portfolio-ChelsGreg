@@ -1,7 +1,9 @@
-morning-update:
--rearranged education/resume page
--edited contact page
--edited paged to be more aligned with each other
+afernoon-update:
+changed contact page to google link
+rearranged resume page
+updating skills/proj page
+testing borders on all
+
 
 
 HOME PAGE:

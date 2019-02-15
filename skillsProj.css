@@ -32,6 +32,14 @@ body{
     opacity: 0.5;
 }
 
+.section h2{
+    text-align: center;
+    font-size: 1rem;
+    padding: 20px;
+    margin: 15px;
+    z-index: 1;
+    opacity: 0.7;
+}
 
 
 .section section{
@@ -51,23 +59,15 @@ body{
     grid-template-rows: 1fr 3fr 1fr ;
 }
 
-.topLinks{
-    align-content: center;
-    grid-column:1;
-    grid-row:1;
-    border-radius: 80px;
-    border: 10px solid black;
-
-}
 
 .reportCard{
     grid-column:1;
     grid-row:2;
     border: 20px solid black;
     border-radius: 70px;
-    background: #d2d2d2;
-    border-left: 3px solid black;
-    border-right: 3px solid black;
+    background: rgba(227, 249, 236, 0.71);
+    border-left: 5px solid darkgoldenrod;
+    border-right: 5px solid darkgoldenrod;
 }
 
 .icons{
@@ -105,18 +105,14 @@ p > a:link {
 a:link{
     background-color: darkslategrey;
     color: white;
+    padding: 14px 25px;
     text-align: center;
     text-decoration: none;
-    border-radius: 6px;
-    padding: 10px 10px;
-    border-top: 2px solid black;
-
-
 }
 
 
 a:visited{
-    background-color: #434446;
+    background-color: #878c99;
     color: white;
     text-align:center;
     padding: 14px 25px;

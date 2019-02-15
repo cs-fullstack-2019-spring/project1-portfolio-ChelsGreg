@@ -49,11 +49,14 @@ body{
 .container{
     display:grid;
     grid-template-columns:1fr 1fr;
-    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-rows: 1fr;
     margin: 20px;
     opacity: 0.6;
     background: rgba(227, 249, 236, 0.71);
-    border-radius: 2px;
+    grid-gap: none;
+    border-top: 2px solid darkslategrey;
+    border-bottom: 2px solid darkslategrey;
+
 
 }
 
@@ -66,7 +69,8 @@ body{
     grid-row: 2;
     font-size: xx-large;
     text-align: left;
-    border-right: 3px solid #458d99;
+    border-right: 2px solid #458d99;
+
 
 }
 
@@ -78,13 +82,8 @@ body{
     align-content: center;
 }
 
-img{
-    border-radius: 9px;
-    filter: blur(1px);
-}
 
-
-p{
+.info{
     grid-column:3;
     text-align: left;
     margin: 15px;
@@ -97,8 +96,7 @@ p{
 }
 
 .poem{
-    grid-column:3;
-    grid-row: 3;
+
     font-size: 15px;
     font-family: 'Lobster', cursive;
 }
