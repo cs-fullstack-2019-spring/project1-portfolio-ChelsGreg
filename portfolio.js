@@ -1,1 +1,0 @@
-$("#infoBack").css("opacity", "0.7");

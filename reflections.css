@@ -1,6 +1,8 @@
 body{
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
+    text-shadow: 4px 4px 4px #aaa;
+
 
 }
 
@@ -64,7 +66,7 @@ body{
     border-radius: 20px;
     opacity: 0.7;
     color: whitesmoke;
-    background: whitesmoke;
+    background: rgba(227, 249, 236, 0.71);
     padding: 20px;
     align-content: center;
 }

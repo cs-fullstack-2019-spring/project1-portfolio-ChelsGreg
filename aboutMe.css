@@ -49,9 +49,10 @@ body{
 .container{
     display:grid;
     grid-template-columns:1fr 1fr;
-    margin: 80% 10%;
+    grid-template-rows: 1fr 2fr 1fr;
+    margin: 20px;
     opacity: 0.6;
-   background: #d2d2d2;
+    background: rgba(227, 249, 236, 0.71);
     border-radius: 2px;
 
 }
@@ -59,15 +60,27 @@ body{
 
 
 
-/*.poem{*/
-    /*grid-column:2;*/
-    /*opacity: 1.0;*/
-/*}*/
 
 .whoIs{
     grid-column: 2;
+    grid-row: 2;
     font-size: xx-large;
     text-align: left;
+    border-right: 3px solid #458d99;
+
+}
+
+
+.photoBooth{
+    grid-column:3;
+    grid-row:1;
+    display: inline-block;
+    align-content: center;
+}
+
+img{
+    border-radius: 9px;
+    filter: blur(1px);
 }
 
 
@@ -76,12 +89,18 @@ p{
     text-align: left;
     margin: 15px;
     grid-row:2;
-    font-size: large;
+    font-size: medium;
+    text-shadow: none;
+    color: rgba(0, 0, 0, 0.94);
+
 
 }
 
-.info{
-    border-left: 3px solid #458d99;
+.poem{
+    grid-column:3;
+    grid-row: 3;
+    font-size: 15px;
+    font-family: 'Lobster', cursive;
 }
 
 
