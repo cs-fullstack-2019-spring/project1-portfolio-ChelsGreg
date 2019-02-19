@@ -1,3 +1,4 @@
+/*TEXT STYLE FOR BODY WITH SHADOW */
 body{
     font-family: 'Open Sans', sans-serif;
     text-shadow: 4px 4px 4px #aaa;
@@ -5,11 +6,11 @@ body{
 }
 
 
-
+/*METRICS OF BACKGROUND VIDEO*/
 .section{
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 97.9vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,6 +24,7 @@ body{
     width: 100%;
 }
 
+/*COLOR OVERLAY TO SOFTEN BRIGHTNESS OF BACKGROUND VIDEO*/
 .color-overlay{
     position:absolute;
     top: 0;
@@ -33,43 +35,44 @@ body{
     opacity: 0.5;
 }
 
+/*NAVIGATION HEADER METRICS*/
 .section h2{
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding: 20px;
     margin: 15px;
     z-index: 1;
     opacity: 0.7;
 }
 
-
+/*PROPERTIES FOR PAGE INFORMATION */
 .section section{
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding: 20px;
-    margin: 15px;
+    margin: 20px;
     z-index: 1;
     opacity: 0.7;
 }
 
 
-
+/*CONTAINER FOR SKILLS/PROJECT SECTION*/
 .container{
     display: grid;
     grid-template-columns:2fr;
-    grid-template-rows: 1fr 3fr 1fr ;
-
+    grid-template-rows: 3fr;
+    margin: 10px;
 }
 
-
+/*PROPERTIES FOR CONTAINER TOP SECTION*/
 .header{
     font-size: xx-large;
 }
 
-
+/*PROPERTIES FOR REPORT CARD SECTION*/
 .reportCard{
     grid-column:1;
-    grid-row:2;
+    grid-row:1;
     border-radius: 3px;
     background: rgba(255, 255, 255, 0.47);
     border-top: 2px solid darkslategrey;
@@ -78,6 +81,7 @@ body{
 }
 
 
+/*PROPERTIES FOR ICONS*/
 
 .icons{
     border: 10px solid white;
@@ -88,12 +92,12 @@ body{
 
 }
 
-
+/*PROPERTIES FOR CREATION SECTION*/
 .creations{
-    font-size: medium;
+    font-size: 1.2rem;
     grid-column:1;
-    grid-row:3;
-    padding: 20px 20px;
+    grid-row:2;
+    padding: 5px 5px;
     border-radius: 3px;
     background: rgba(255, 255, 255, 0.47);
     border-top: 2px solid darkslategrey;
@@ -101,6 +105,7 @@ body{
 
 }
 
+/*PROPERTIES FOR LINKS WITHIN CREATIONS SECTION*/
 p > a:link {
     text-align: center;
     border-radius: 4px;
@@ -111,7 +116,7 @@ p > a:link {
 }
 
 
-
+/*PROPERTIES FOR LINKS, EXCEPT LINKS IN CREATIONS SECTION*/
 a:link{
     background-color: darkslategrey;
     color: white;

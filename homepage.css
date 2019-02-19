@@ -1,19 +1,18 @@
+/*TEXT STYLE FOR BODY WITH SHADOW */
 body{
     font-family: 'Open Sans', sans-serif;
-    font-size: 48px;
+    font-size: 2rem;
     text-shadow: 4px 4px 4px #aaa;
 
 }
 
 
 
-
-
-
+/*METRICS OF BACKGROUND VIDEO*/
 .section{
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 97vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,6 +29,7 @@ body{
 
 }
 
+/*COLOR OVERLAY TO SOFTEN BRIGHTNESS OF BACKGROUND VIDEO*/
 .color-overlay{
     position:absolute;
     top: 0;
@@ -40,6 +40,7 @@ body{
     opacity: 0.5;
 }
 
+/*NAVIGATION HEADER METRICS*/
 .section h1{
      text-align: center;
      font-size: 3rem;
@@ -49,16 +50,17 @@ body{
      opacity: 0.7;
  }
 
-
-.section h3{
+/*METRICS FOR NAME*/
+.section h2{
     text-align: left;
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding: 20px;
     margin: 15px;
     z-index: 1;
     opacity: 0.7;
 }
 
+/*PROPERTIES FOR LINKS*/
 a:link{
     background-color: darkslategrey;
     color: white;
@@ -80,8 +82,4 @@ a:hover{
     background-color: antiquewhite;
 }
 
-
-.blueText{
-    color: darkblue;
-}
 

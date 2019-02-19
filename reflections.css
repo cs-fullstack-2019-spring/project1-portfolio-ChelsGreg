@@ -1,17 +1,17 @@
+/*TEXT STYLE FOR BODY WITH SHADOW */
 body{
     font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
     text-shadow: 4px 4px 4px #aaa;
 
 
 }
 
 
-
+/*METRICS OF BACKGROUND VIDEO*/
 .section{
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 97.9vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,6 +28,7 @@ body{
 
 }
 
+/*COLOR OVERLAY TO SOFTEN BRIGHTNESS OF BACKGROUND VIDEO*/
 .color-overlay{
     position:absolute;
     top: 0;
@@ -39,8 +40,7 @@ body{
 }
 
 
-
-
+/*PROPERTIES OF NAV LINK CONTAINER*/
 .headCount{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -50,14 +50,14 @@ body{
     opacity: 0.7;
     padding: 20px;
     margin: 15px;
-    font-size: 10px;
+    font-size: 0.8rem;
 
 }
 
 
 
 
-
+/*PROPERTIES OF YOUTUBE VIDEO CONTAINER*/
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -69,60 +69,60 @@ body{
     background: rgba(255, 255, 255, 0.47);
     padding: 20px;
     align-content: center;
+    font-size: large;
 }
 
-
+/*INTRO VID PLACEMENT*/
 .videoIn{
     grid-column: 1;
     grid-row: 1;
     background: black;
-
 }
 
+/*WEEK 1 PLACEMENT*/
 .video1{
     border: 10px solid black;
     grid-column:2;
     grid-row:1;
     background: black;
-
 }
 
+/*WEEK 2 PLACEMENT*/
 .video2{
     border: 10px solid black;
     grid-column: 3;
     grid-row: 1;
     background: black;
 
-
-
 }
 
+/*WEEK 3 PLACEMENT*/
 .video3{
     border: 10px solid black;
     grid-column: 1;
     grid-row:2;
     background: black;
-
 }
 
+/*WEEK 4 PLACEMENT*/
 .video4{
     grid-column:2;
     grid-row:2;
     border: 10px solid black;
     background: black;
-
 }
 
+
+/*WEEK 5 PLACEMENT*/
 .video5{
     grid-column: 3;
     grid-row:2;
     border: 10px solid black;
     background: black;
-    font-size: 15px;
-
 }
 
 
+/*PROPERTIES FOR NAV LINKS ON PAGE*/
 a:link{
     background-color: darkslategrey;
     color: white;

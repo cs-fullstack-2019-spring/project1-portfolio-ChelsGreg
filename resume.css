@@ -1,14 +1,15 @@
+/*TEXT STYLE FOR BODY WITH SHADOW */
 body{
     font-family: 'Open Sans', sans-serif;
     text-shadow: 4px 4px 4px #aaa;
 }
 
 
-
+/*METRICS OF BACKGROUND VIDEO*/
 .section{
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 97.9vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,6 +24,7 @@ body{
 
 }
 
+/*COLOR OVERLAY TO SOFTEN BRIGHTNESS OF BACKGROUND VIDEO*/
 .color-overlay{
     position:absolute;
     top: 0;
@@ -33,10 +35,10 @@ body{
     opacity: 0.5;
 }
 
-
+/*NAVIGATION HEADER METRICS*/
 .section h2{
     text-align: left;
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding: 20px;
     margin: 15px;
     z-index: 1;
@@ -73,7 +75,7 @@ body{
 
 
 table{
-    font-size: medium;
+    font-size: 1.2rem;
     font-weight: bold;
     color: rgba(0, 0, 0, 0.94);
     grid-column:1;
